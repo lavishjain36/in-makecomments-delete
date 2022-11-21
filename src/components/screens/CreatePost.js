@@ -42,7 +42,7 @@ const CreatePost=()=> {
     const data=new FormData();
     data.append("file",image)
     data.append("upload_preset","instaclone");
-    data.append("cloud_name","jainmonula");
+    data.append("cloud_name","rkdv");
     fetch("https://api.cloudinary.com/v1_1/rkdv/image/upload",{
       method:"post",
       body:data
