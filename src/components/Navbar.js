@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import {Link, useNavigate} from 'react-router-dom'
 import { UserContext } from '../App'
 const  Navbar=()=> {
-  const {state,dispatch} = useContext(UserContext);
+  const {state,dispatch} = useContext(UserContext)
   const navigate=useNavigate()
   const renderList=()=>{
     // console.log(state)
